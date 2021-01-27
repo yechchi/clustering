@@ -36,7 +36,7 @@ L'objectif de la classification ascendante hiérarchique (CAH) est de produire u
 
 QUESTION : Comment mesurer la  distance  entre 2 groupes ?
 
-## Choix d’une distance et d’un critère
+#### Choix d’une distance et d’un critère
 
 Les méthodes de clustering de type hiérarchique sont différentes. Elles forment pas à pas des connexions entre individus (pour les méthodes de clustering hiérarchiques ascendantes), et utilisent une matrice de distances entre individus pour trouver le regroupement le plus proche d’un autre.
 
@@ -67,7 +67,7 @@ Cela nous permet de mettre à jour les formules des distances:
 ![](README_files/lance.png)
 
 
-### A first simple test:
+## Simulations:
 
 We simulate 
 
