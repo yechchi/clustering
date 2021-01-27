@@ -78,5 +78,36 @@ matrice<-function(n1,n2){
      a <- matrix (rep(rnorm(n1*n2), n1*n2),n1,  n2)
      return(a)
  }
+ 
+ 
  X<-matrice(13,25)
 ```
+
+Nous allons maintenant appliquer notre fonction hc a notre matrice X :
+``` r
+hc(X,6)
+Les labels des clusters finaux:
+ 4 6 6 1 2 5 2 5 3 4 3 6 6 
+[[1]]
+ [1] 4 6 6 1 2 5 2 5 3 4 3 6 6
+
+[[2]]
+[[2]][[1]]
+[1] 4
+
+[[2]][[2]]
+[1] 5 7
+
+[[2]][[3]]
+[1]  9 11
+
+[[2]][[4]]
+[1]  1 10
+
+[[2]][[5]]
+[1] 6 8
+
+[[2]][[6]]
+[1]  2 13  3 12
+```
+
