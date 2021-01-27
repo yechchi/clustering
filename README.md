@@ -17,7 +17,7 @@
 
 The 'clustering' R package is implemented in R and in Rcpp.
 
-clustering is of time complexity ***O*(*n*<sup>2</sup>)** 
+clustering algorithm by Ward Distance is of time complexity ***O*(*n*<sup>3</sup>)**. The improved solution (by Lance & Williams process) is of  ***O*(*n*<sup>2</sup>log(n))**
 
 This gif provides a graphical representation of its mechanisms:
 
