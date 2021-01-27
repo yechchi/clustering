@@ -1,4 +1,4 @@
-hc <- function(X, K, method){
+hc <- function(X, K){
   MatDistance_X <- as.matrix(dist(X)) # Matrice distance de X bas?e sur la distance euclidienne
   MatDistance_X[MatDistance_X==0] <- NA #transformer tous les 0 en NA, on aura donc aucune distance nulle
   Clust <- list()# Clust contiendra les cluster form?s
@@ -28,7 +28,7 @@ hc <- function(X, K, method){
     # On doit reclculer les distances entre ce nouveau cluster et les autres,
     #ce calcul se fera avec la fonction dist. Cela dans le but de cr?er un nouveau cluster qui sera Constitu? des 2 clusters les plus proches.
     # Mise ? jour de la matrice de distance
-    MatDistCluster <- distc(X, MatDistCluster, Clust, method)
+    MatDistCluster <- distc(X, MatDistCluster, Clust)
     # A cette ?tape, MatDistCluster contient et la matrice de distance initiale et les nouvelles distances entre les anciens clusters et le  nouveau
     # Il nous faut maintenant supprimer de la matrice CluDistMatFinal les clusters deja regroup?s
 
