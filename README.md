@@ -8,20 +8,18 @@
 
 > [The clustering algorithm](#com)
 
-> [Microblenchmark](#micro)
-
 > [Time complexity](#time)
 
 
 ## Quick Start
 
-The 'clustering' R package is implemented in R and in Rcpp.
+The 'clustering' R package is implemented in R and in Rcpp. It contains 3 functions: dist.R , Ward.R and hclust.R .
 
 clustering algorithm by Ward Distance is of time complexity ***O*(*n*<sup>3</sup>)**. The improved solution (by Lance & Williams process) is of  ***O*(*n*<sup>2</sup>log(n))**
 
 This gif provides a graphical representation of its mechanisms:
 
-![](hiearchical.gif)
+![](hierarchical.gif)
 ### Package installation
 
 You first need to install the `devtools` package, it can be done easily from Rstudio. We install the package from Github (remove the \# sign):
