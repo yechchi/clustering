@@ -8,7 +8,7 @@
 
 ## Quick Start:
 
-Dans le cadre de notre cours d'algorithmique, nous avons créer notre propre package R/Rcpp intitulé "Algorithmique".
+Dans le cadre de notre cours d'algorithmique, nous avons créer notre propre package R/Rcpp intitulé "clustering".
 Ce package contient les fonctions suivants : dist.R , Ward.R and hclust.R.
 
 ### Package installation:
@@ -83,9 +83,15 @@ matrice<-function(n1,n2){
  X<-matrice(13,25)
 ```
 
-Nous allons maintenant appliquer notre fonction hc a notre matrice X :
+Nous allons maintenant appliquer notre fonction de classification a notre matrice X :
+
+
 ``` r
 hc(X,6)
+```
+
+``` r
+
 Les labels des clusters finaux:
  4 6 6 1 2 5 2 5 3 4 3 6 6 
 [[1]]
