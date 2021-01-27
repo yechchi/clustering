@@ -1,4 +1,4 @@
-hc <- function(X, K){
+hclust <- function(X, K){
   MatDistance_X <- as.matrix(dist(X)) # Matrice distance de X bas?e sur la distance euclidienne
   MatDistance_X[MatDistance_X==0] <- NA #transformer tous les 0 en NA, on aura donc aucune distance nulle
   Clust <- list()# Clust contiendra les cluster form?s
