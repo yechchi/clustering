@@ -1,8 +1,8 @@
-# PackageCclustering
+# Package Clustering
 
-### EL HAJAM Nawel -- YECHCHI Sif-Eddine -- KOUA Richard
+##### EL HAJAM Nawel -- YECHCHI Sif-Eddine -- KOUA Richard
 
-#### M2 DATA SCIENCE PARIS SACLAY UNIVERSITY
+##### M2 DATA SCIENCE PARIS SACLAY UNIVERSITY
 
 
 
