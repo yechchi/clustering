@@ -1,6 +1,6 @@
 # distance 'single link'
 
-distc <- function(X, CluDistMat, Clu, method){
+distc <- function(X, CluDistMat, Clu){
   #nombre total des clusters
   CluNum <- length(Clu)
   # valeur du dernier cluster
