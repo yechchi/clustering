@@ -23,6 +23,7 @@ library(clustering)
 
 ## Complexité :
 
+
 La compléxité temporelle théorique de notre fonction h_clust est de  ***O*(*n*<sup>3</sup>)** .
 La solution amélioré de notre fonction a une complexité temporelle de ***O*(*n*<sup>2</sup>log(*n*))** 
 
@@ -64,11 +65,6 @@ de classification ascendante hiérarchique (CAH). En effet, à l'étape 3, il ex
 Cela nous permet de mettre à jour les formules des distances:
 
 ![](README_files/lance.png)
-
-The 'clustering' R package is implemented in R and in Rcpp. It contains 3 functions: dist.R , Ward.R and hclust.R .
-
-clustering algorithm by Ward Distance is of time complexity ***O*(*n*<sup>3</sup>)**. The improved solution (by Lance & Williams process) is of  ***O*(*n*<sup>2</sup>log(n))**
-
 
 
 ### A first simple test:
