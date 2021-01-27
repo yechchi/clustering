@@ -69,7 +69,14 @@ Cela nous permet de mettre à jour les formules des distances:
 
 ## Simulations:
 
-We simulate 
+Nous allons appliquer notre package a un exemple.
+Pour ce faire, nous allons commncer par simuler une matrice d'individus :
+
 
 ``` r
+matrice<-function(n1,n2){
+     a <- matrix (rep(rnorm(n1*n2), n1*n2),n1,  n2)
+     return(a)
+ }
+ X<-matrice(13,25)
 ```
