@@ -26,7 +26,7 @@ We install the package from Github:
 
 ``` r
 #devtools::install_github("yechchi/clustering")
-library(M2algorithmique)
+library(clustering)
 ```
 
 ### A first simple test:
