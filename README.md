@@ -87,7 +87,7 @@ Nous allons maintenant appliquer notre fonction de classification a notre matric
 
 
 ``` r
-hc(X,6)
+hclust(X,6)
 ```
 
 ``` r
