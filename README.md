@@ -11,7 +11,7 @@
 > [Time complexity](#time)
 
 
-## Quick Start
+## Quick Start:
 
 The 'clustering' R package is implemented in R and in Rcpp. It contains 3 functions: dist.R , Ward.R and hclust.R .
 
@@ -20,18 +20,18 @@ clustering algorithm by Ward Distance is of time complexity ***O*(*n*<sup>3</sup
 This gif provides a graphical representation of its mechanisms:
 
 ![](hierarchical.gif)
-### Package installation
+### Package installation:
 
-You first need to install the `devtools` package, it can be done easily from Rstudio. We install the package from Github (remove the \# sign):
+We install the package from Github:
 
 ``` r
 #devtools::install_github("yechchi/clustering")
 library(M2algorithmique)
 ```
 
-### A first simple test
+### A first simple test:
 
-We simulate simple data as follows, with `v` a vector as size `n` containing all the integers from `1` to `n` (exactly one time) in any order.
+We simulate 
 
 ``` r
 ```
