@@ -1,4 +1,4 @@
-# Package Clustering
+# Clustering
 
 ##### EL HAJAM Nawel -- YECHCHI Sif-Eddine -- KOUA Richard
 
